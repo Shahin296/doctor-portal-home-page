@@ -1,0 +1,8 @@
+.listOfFooter li{
+    list-style: none;
+    margin-top: 15px;
+}
+.listOfFooter h5{
+    color: #11c1ce;
+    padding-bottom: 12px;
+}

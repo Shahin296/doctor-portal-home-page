@@ -1,0 +1,26 @@
+.appointment{
+     height: 430px;
+     position: relative;
+     background-image: url("../../../images/chair-bg.png");
+     background-position: center;
+     margin-top: 80px !important;
+}
+.appointment::before{
+    height: 430px;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:100%;
+    background-color: #3A4256;
+    z-index: -1;
+}
+.appointDocImg{
+    height: 550px;  
+    width:100%;
+    object-fit: cover;
+    transform: translateY(-120px);
+    z-index: 100;
+}
+
+
